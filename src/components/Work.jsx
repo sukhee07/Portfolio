@@ -1,10 +1,13 @@
+import nexthirehubImg from '../assets/images/Work/Image1.png'
+import noteguideImg from '../assets/images/Work/Image2.png'
+import seabrosImg from '../assets/images/Work/Image3.avif'
+
 const projects = [
   {
     title: 'NextHireHub',
     type: 'AI Career Fair Platform',
     year: '2026',
-    image:
-      'https://res.cloudinary.com/duiflu7im/image/upload/v1779518537/ChatGPT_Image_May_1_2026_10_00_23_AM_mf9up6.png',
+    image: nexthirehubImg,
     stack: 'MERN, Tailwind CSS, Cloudinary',
     summary:
       'An AI-enabled career fair and event platform connecting students, recruiters, and event organizers with dashboards, authentication, automation, and real-time event management.',
@@ -14,9 +17,8 @@ const projects = [
     title: 'NoteGuide',
     type: 'Educational Mobile App',
     year: 'Present',
-    image:
-      'https://res-console.cloudinary.com/duiflu7im/thumbnails/v1/image/upload/v1779522191/Tm90ZUd1aWRlMl90bXMzMWY=/drilldown',
-    stack: 'React Native',
+    image: noteguideImg,
+    stack: 'React.js, Node.js, Express.js, MongoDB, Tailwind CSS, Cloudinary, Clerk',
     summary:
       'A mobile learning application focused on helping students organize educational content and access study material through a cleaner mobile experience.',
   },
@@ -24,8 +26,7 @@ const projects = [
     title: 'Sea Bros Website',
     type: 'Company Website',
     year: '2025',
-    image:
-      'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80',
+    image: seabrosImg,
     stack: 'Frontend, Content, Service Delivery',
     summary:
       'Created and managed the company website for Sea Bros Pvt Ltd while supporting technical documentation, client service delivery, and product development oversight.',

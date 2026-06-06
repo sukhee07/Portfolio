@@ -5,7 +5,7 @@ const skillGroups = [
   },
   {
     title: 'Frontend',
-    items: ['React.js', 'React Native', 'Tailwind CSS', 'Bootstrap'],
+    items: ['React.js', 'TypeScript', 'Tailwind CSS', 'Bootstrap'],
   },
   {
     title: 'Backend & Databases',
