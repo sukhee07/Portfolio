@@ -31,7 +31,7 @@ function Header() {
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Go to top">
           <span>Sukhpreet Singh</span>
-          <small>MERN Stack Developer</small>
+          <small>Full Stack Developer</small>
         </a>
 
         <nav className="pill-nav desktop-nav" aria-label="Primary navigation">

@@ -2,6 +2,7 @@ import './index.css'
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
 import Work from './components/Work.jsx'
+import ClientWork from './components/ClientWork.jsx'
 import Info from './components/Info.jsx'
 import Skills from './components/Skills.jsx'
 import Experience from './components/Experience.jsx'
@@ -16,6 +17,7 @@ function App() {
       <Hero />
       <Work />
       <Info />
+      <ClientWork />
       <Skills />
       <Experience />
       <Education />

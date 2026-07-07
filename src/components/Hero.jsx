@@ -2,7 +2,7 @@ function Hero() {
   return (
     <section id="top" className="hero-section">
       <div className="hero-copy">
-        <p className="eyebrow">Junior Software Engineer at GoCoder Inventurge</p>
+        <p className="eyebrow">Founder & Full Stack Developer at ITsLancer</p>
         <h1>
           I build, deploy, and manage live MERN stack web applications.
         </h1>
