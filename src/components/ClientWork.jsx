@@ -1,6 +1,7 @@
 import React from 'react'
 import unicornImg from '../assets/images/ClientWork/Unicorn.png'
 import albertaImg from '../assets/images/ClientWork/Alberta.png'
+import crmImg from '../assets/images/ClientWork/CRM.png'
 
 const clients = [
   {
@@ -9,7 +10,7 @@ const clients = [
     type: 'Client Website',
     year: '2026',
     image: unicornImg,
-    stack: 'Web Development',
+    stack: 'MERN',
     summary: 'Developed a comprehensive website for Unicorn Consultancy to help scale their business and improve online presence.',
   },
   {
@@ -18,8 +19,17 @@ const clients = [
     type: 'Client Website',
     year: '2026',
     image: albertaImg,
-    stack: 'Web Development',
+    stack: 'Shopify',
     summary: 'Built a Shopify website for Alberta Home Furnishing, showcasing their furniture and home decor collections.',
+  },
+  {
+    title: 'Immigration CRM',
+    location: 'Jammu',
+    type: 'Web Application',
+    year: '2026',
+    image: crmImg,
+    stack: 'PHP',
+    summary: 'Client relationship management application built to streamline business processes and improve client management. Features a clean interface and smooth user experience.',
   }
 ]
 
