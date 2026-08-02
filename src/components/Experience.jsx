@@ -8,7 +8,7 @@ const experience = [
       'Developed responsive websites and web applications using React.js, Node.js, Express.js, MongoDB, and Shopify. Customized Shopify themes to improve performance, responsiveness, and user experience. Collaborated directly with clients to gather requirements, provide technical solutions, and deliver projects on time. Designed and deployed business websites, landing pages, and branding assets including logos and UI components. Managed the complete project lifecycle, from requirement analysis to deployment and post-launch support.',
   },
   {
-    company: 'GoCoder Inventurge',
+    company: 'GoCoder Inventure',
     location: 'Mohali',
     role: 'Junior Software Engineer',
     date: 'Jan 2026 - June 2026',
