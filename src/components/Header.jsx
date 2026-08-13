@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 import { createPortal } from 'react-dom'
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa6'
+import { MdContactPage } from 'react-icons/md'
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -40,20 +42,49 @@ function Header() {
           <a href="#skills">Skills</a>
         </nav>
 
-        <div className="header-links desktop-nav">
-          <a href="https://github.com/sukhee07" target="_blank" rel="noreferrer">
-            GitHub
-          </a>
-          <a
-            href="https://www.linkedin.com/in/sukhpreet-singh-037a70300/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LinkedIn
-          </a>
-          <a href="https://docs.google.com/document/d/16U1f8tMJ3FpbKx1vTSesH0zUPENyyd97j6RkHzUrOos/edit?usp=sharing">
-            Resume
-          </a>
+        <div className="header-links desktop-nav items-center">
+          <div className="relative flex flex-col items-center justify-center">
+            <a
+              href="https://github.com/sukhee07"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="GitHub"
+              className="group peer flex items-center justify-center w-10 h-10 rounded-full border border-[rgba(24,21,17,0.18)] hover:bg-[#181511] hover:!border-[#181511] hover:!text-[#f8f1e7] transition-all"
+            >
+              <FaGithub className="text-[20px] text-[#181511] group-hover:text-[#f8f1e7] transition-colors" />
+            </a>
+            <span className="absolute top-full mt-2 px-3 py-1.5 bg-[#181511] text-[#f8f1e7] text-xs font-bold rounded-full opacity-0 peer-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap">
+              GitHub
+            </span>
+          </div>
+
+          <div className="relative flex flex-col items-center justify-center">
+            <a
+              href="https://www.linkedin.com/in/sukhpreet-singh-037a70300/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="LinkedIn"
+              className="group peer flex items-center justify-center w-10 h-10 rounded-full border border-[rgba(24,21,17,0.18)] hover:bg-[#181511] hover:!border-[#181511] hover:!text-[#f8f1e7] transition-all"
+            >
+              <FaLinkedinIn className="text-[18px] text-[#181511] group-hover:text-[#f8f1e7] transition-colors" />
+            </a>
+            <span className="absolute top-full mt-2 px-3 py-1.5 bg-[#181511] text-[#f8f1e7] text-xs font-bold rounded-full opacity-0 peer-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap">
+              LinkedIn
+            </span>
+          </div>
+
+          <div className="relative flex flex-col items-center justify-center">
+            <a
+              href="https://docs.google.com/document/d/16U1f8tMJ3FpbKx1vTSesH0zUPENyyd97j6RkHzUrOos/edit?usp=sharing"
+              aria-label="Resume"
+              className="group peer flex items-center justify-center w-10 h-10 rounded-full border border-[rgba(24,21,17,0.18)] hover:bg-[#181511] hover:!border-[#181511] hover:!text-[#f8f1e7] transition-all"
+            >
+              <MdContactPage className="text-[20px] text-[#181511] group-hover:text-[#f8f1e7] transition-colors" />
+            </a>
+            <span className="absolute top-full mt-2 px-3 py-1.5 bg-[#181511] text-[#f8f1e7] text-xs font-bold rounded-full opacity-0 peer-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap">
+              Resume
+            </span>
+          </div>
         </div>
 
         {/* Hamburger button — only visible on mobile */}
@@ -87,23 +118,34 @@ function Header() {
               <a href="#skills" onClick={handleNavClick}>Skills</a>
             </div>
 
-            <div className="mobile-nav-socials">
-              <a href="https://github.com/sukhee07" target="_blank" rel="noreferrer" onClick={handleNavClick}>
-                GitHub
+            <div className="mobile-nav-socials items-center">
+              <a
+                href="https://github.com/sukhee07"
+                target="_blank"
+                rel="noreferrer"
+                onClick={handleNavClick}
+                aria-label="GitHub"
+                className="group flex items-center justify-center w-12 h-12 rounded-full border border-current hover:bg-[#f8f1e7] hover:!text-[#181511] transition-all"
+              >
+                <FaGithub className="text-[22px] text-[#f8f1e7] group-hover:text-[#181511] transition-colors" />
               </a>
               <a
                 href="https://www.linkedin.com/in/sukhpreet-singh-037a70300/"
                 target="_blank"
                 rel="noreferrer"
                 onClick={handleNavClick}
+                aria-label="LinkedIn"
+                className="group flex items-center justify-center w-12 h-12 rounded-full border border-current hover:bg-[#f8f1e7] hover:!text-[#181511] transition-all"
               >
-                LinkedIn
+                <FaLinkedinIn className="text-[20px] text-[#f8f1e7] group-hover:text-[#181511] transition-colors" />
               </a>
               <a
                 href="https://docs.google.com/document/d/16U1f8tMJ3FpbKx1vTSesH0zUPENyyd97j6RkHzUrOos/edit?usp=sharing"
                 onClick={handleNavClick}
+                aria-label="Resume"
+                className="group flex items-center justify-center w-12 h-12 rounded-full border border-current hover:bg-[#f8f1e7] hover:!text-[#181511] transition-all"
               >
-                Resume
+                <MdContactPage className="text-[22px] text-[#f8f1e7] group-hover:text-[#181511] transition-colors" />
               </a>
             </div>
           </nav>

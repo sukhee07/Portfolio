@@ -115,7 +115,6 @@ main {
   gap: 18px;
 }
 
-.header-links a,
 .text-link,
 .footer-email {
   font-size: 14px;
@@ -266,8 +265,6 @@ main {
   color: #b9afa1;
   font-size: 14px;
   font-weight: 750;
-  border-bottom: 1px solid rgba(185, 175, 161, 0.5);
-  padding-bottom: 2px;
   transition: color 180ms ease;
 }
 

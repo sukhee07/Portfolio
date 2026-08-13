@@ -2,7 +2,7 @@ const education = [
   {
     degree: 'Master of Computer Applications (MCA)',
     school: 'University of Jammu',
-    date: 'Aug 2024 - Jun 2026',
+    date: 'Aug 2024 - Sept 2026',
   },
   {
     degree: 'B.Sc. in Computer Applications',
