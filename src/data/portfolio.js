@@ -1,4 +1,4 @@
-import nexthirehubImg from '../assets/images/Projects/Nexthirehub.png'
+import nexthirehubImg from '../assets/images/Projects/NextHireHub.png'
 import noteguideImg from '../assets/images/Projects/NoteGuide.png'
 import portfolioImg from '../assets/images/Projects/Portfolio.svg'
 
