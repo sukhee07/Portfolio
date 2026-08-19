@@ -1,21 +1,4 @@
-const skillGroups = [
-  {
-    title: 'Languages',
-    items: ['HTML5', 'CSS3', 'JavaScript', 'Python', 'Java', 'C++'],
-  },
-  {
-    title: 'Frontend',
-    items: ['React.js', 'TypeScript', 'Tailwind CSS', 'Bootstrap'],
-  },
-  {
-    title: 'Backend & Databases',
-    items: ['Node.js', 'Express.js', 'MongoDB', 'MySQL', 'PostgreSQL'],
-  },
-  {
-    title: 'Tools & Workflows',
-    items: ['VS Code', 'Antigravity', 'Git', 'GitHub', 'Figma', 'Cloudinary'],
-  },
-]
+import { skillGroups } from '../data/portfolio'
 
 function Skills() {
   return (

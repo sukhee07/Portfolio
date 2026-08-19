@@ -671,3 +671,25 @@ main {
     grid-template-columns: 1fr;
   }
 }
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* Translate by exactly one-third since we have 3 identical children */
+    transform: translateX(calc(-100% / 3));
+  }
+}
+
+.animate-marquee {
+  width: max-content;
+  animation: marquee 15s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee-reverse {
+  width: max-content;
+  animation: marquee 15s linear infinite reverse;
+  will-change: transform;
+}

@@ -37,7 +37,7 @@ function Header() {
         </a>
 
         <nav className="pill-nav desktop-nav" aria-label="Primary navigation">
-          <a href="#work">Work</a>
+          <a href="#client-work">Work</a>
           <a href="#info">Info</a>
           <a href="#skills">Skills</a>
         </nav>
@@ -113,7 +113,7 @@ function Header() {
             aria-label="Mobile navigation"
           >
             <div className="mobile-nav-links">
-              <a href="#work" onClick={handleNavClick}>Work</a>
+              <a href="#client-work" onClick={handleNavClick}>Work</a>
               <a href="#info" onClick={handleNavClick}>Info</a>
               <a href="#skills" onClick={handleNavClick}>Skills</a>
             </div>

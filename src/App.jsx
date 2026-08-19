@@ -1,26 +1,27 @@
 import './index.css'
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
+import Projects from './components/Projects.jsx'
 import Work from './components/Work.jsx'
-import ClientWork from './components/ClientWork.jsx'
 import Info from './components/Info.jsx'
 import Skills from './components/Skills.jsx'
 import Experience from './components/Experience.jsx'
 import Education from './components/Education.jsx'
+import Marquee from './components/Marquee.jsx'
 import Footer from './components/Footer.jsx'
-
 
 function App() {
   return (
     <main>
       <Header />
       <Hero />
-      <Work />
+      <Projects />
       <Info />
-      <ClientWork />
+      <Work />
       <Skills />
       <Experience />
       <Education />
+      <Marquee />
       <Footer />
     </main>
   )

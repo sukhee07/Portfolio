@@ -1,15 +1,4 @@
-const education = [
-  {
-    degree: 'Master of Computer Applications (MCA)',
-    school: 'University of Jammu',
-    date: 'Aug 2024 - Sept 2026',
-  },
-  {
-    degree: 'B.Sc. in Computer Applications',
-    school: 'Cluster University of Jammu',
-    date: 'Jul 2020 - Aug 2023',
-  },
-]
+import { education } from '../data/portfolio'
 
 function Education() {
   return (
