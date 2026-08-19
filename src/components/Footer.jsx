@@ -9,21 +9,21 @@ function Footer() {
       
       <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 mb-10">
         <SocialLink 
-          href="https://linkedin.com/in/" 
+          href="https://www.linkedin.com/in/sukhpreet-singh-037a70300" 
           icon={<FaLinkedinIn />} 
           ariaLabel="LinkedIn" 
           hoverBg="bg-[#0a66c2]"
           hoverBorder="hover:border-[#0a66c2]"
         />
         <SocialLink 
-          href="https://github.com/sukhpreetsingh1689" 
+          href="https://github.com/sukhee07" 
           icon={<FaGithub />} 
           ariaLabel="GitHub" 
           hoverBg="bg-[#181511]"
           hoverBorder="hover:border-[#181511]"
         />
         <SocialLink 
-          href="https://twitter.com/" 
+          href="https://x.com/sukhee_codes" 
           icon={<FaXTwitter />} 
           ariaLabel="X (Twitter)" 
           hoverBg="bg-[#000000]"
